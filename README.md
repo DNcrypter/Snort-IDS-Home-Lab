@@ -46,6 +46,8 @@ This is the part where we shall set our home network to which we want Snort to m
 ```
 nano snort.conf
 ```
+![snort image](https://github.com/DNcrypter/Snort-IDS-Home-Lab/blob/main/snort_4.png)
+
 Under the ipvar **HOME_NET** part, it’s where we set our home address. (Please include the /24 mask). This can be got from your Ubuntu terminal using the command ip a s as below. It is the second inet under the adapter enp0s3( it is different for you).
 **Step 2**: save our changes and exit. use Ctrl + x, press Y and then Enter key.
 
@@ -59,6 +61,7 @@ sudo snort -T -i enps03 -c /etc/snort/snort.conf , run inside /etc/snort
 - **-T** : it is used to open snort in test mode.
 - **-i** : use to specify network interface.
 - **-c** : specifies location of snort config file.
+![snort image](https://github.com/DNcrypter/Snort-IDS-Home-Lab/blob/main/snort_3.png)
   
 Observe, we have seen message below on terminal that “ **snort successfully validate the configuration** ”.
 
