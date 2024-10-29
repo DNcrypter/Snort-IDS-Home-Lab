@@ -5,7 +5,7 @@
 
 ## 🍁Introduction
 Snort is an Intrusion Detection System(IDS) and an Intrusion Prevention System (IPS). it is used to notify and alert the security personnel in an organization of breached security rules. It uses a set of rules that define malicious network activity and uses these rules to find packets that match against them and generates alerts for users.
-![snort image](https://github.com/DNcrypter/Snort-IDS-Home-Lab/blob/main/snort_1.png)
+![snort image](https://github.com/DNcrypter/Snort-IDS-Home-Lab/blob/main/snort_2.png)
 
 ## 📝 Requirements:
 - Ubuntu server/Desktop installed on Virtual machine
